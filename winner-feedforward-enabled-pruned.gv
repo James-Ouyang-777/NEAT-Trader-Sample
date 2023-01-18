@@ -1,0 +1,13 @@
+digraph {
+	node [fontsize=9 height=0.2 shape=circle width=0.2]
+	x [fillcolor=lightgray shape=box style=filled]
+	dx [fillcolor=lightgray shape=box style=filled]
+	theta [fillcolor=lightgray shape=box style=filled]
+	dtheta [fillcolor=lightgray shape=box style=filled]
+	control [fillcolor=lightblue style=filled]
+	470 [fillcolor=white style=filled]
+	dtheta -> control [color=green penwidth=0.45622202779397447 style=solid]
+	dx -> control [color=green penwidth=0.20608772339569953 style=solid]
+	theta -> 470 [color=green penwidth=0.21574784378776304 style=solid]
+	470 -> control [color=green penwidth=0.3792005229368186 style=solid]
+}
